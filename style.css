@@ -1,0 +1,25 @@
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Kalam', cursive;
+font-family: 'Poppins', sans-serif; */
+*{padding: 0;margin: 0;box-sizing: 0;}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),
+                url('laptopnight.avif');
+            background-size: cover;    
+            color: white;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+    
+}
