@@ -1,25 +1,99 @@
-/* font-family: 'Poppins', sans-serif; */
-/* font-family: 'Kalam', cursive;
-font-family: 'Poppins', sans-serif; */
-*{padding: 0;margin: 0;box-sizing: 0;}
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
 
-header{
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),
-                url('laptopnight.avif');
-            background-size: cover;    
-            color: white;
+.hero{
+    position:relative;
+    width:100%;
+    height:100vh;
+    background:#eff4fd;
 }
 
 nav{
-    width: 100%;
-    height: 100px;
-    background-color: red;
-    display: flex;
-    justify-content: space-between;
+    display:flex ;
+    width: 94%;
+    margin: auto;
+    padding: 20px 0;
     align-items: center;
-    flex-wrap: wrap;
-    padding: 0 70px;
-    
+    justify-content:space-between ;
 }
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color:#000 ;
+    font-weight:bold ;
+}
+
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detail{
+    margin-left:8% ;
+    margin-top: 12%;
+}
+
+.detail h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+
+span{
+    color: orange;
+}
+
+.detail p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detail a{
+    background: #212121;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #eff4fd;
+    display:inline-block ;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 65%;
+    height: 80%;
+    position: absolute;
+    bottom: 0%;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50);
+    transition: bottom 1s,right 5s;
+}
+/* .images a{
+    position: relative;
+    left: 80%;
+} */
+
+.images:hover .shape{
+    bottom:20px;
+
+}
+
